@@ -1,0 +1,7 @@
+title Exercisce 0.6
+
+browser->browser: Uses Javascript code fetch data and prevent default
+browser->browser: Creates new note and push
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server->browser: Statuscode 201
+
